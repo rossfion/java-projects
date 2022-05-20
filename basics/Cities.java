@@ -7,7 +7,7 @@ public class Cities{
 		System.out.println(cities[2]);
 		System.out.println(cities[3]);
 		
-		System.out.println();
+		System.out.println("**************");
 		
 		// declare and define an array's size explicitly
 		String[] states = new String[5];
@@ -29,26 +29,21 @@ public class Cities{
 		while(!stateFound){
 			String state = states[n];
 			System.out.println(state);
-			//if (state.equals("Maryland")){this works too
 				if (state == "Maryland"){
 				System.out.println("STATE FOUND!");
 				stateFound = true;
 			}
-		//while(n <= 4){
-			//System.out.println("STATE at " + n + ": " + states[n]);
+		
 			n++;
-		}
-		/* System.out.println(states[0]);
-		System.out.println(states[1]);
-		System.out.println(states[2]);
-		System.out.println(states[3]);
-		System.out.println(states[4]); */
+		
+		
 	}
-	// this has an error - what is it!?!
-	System.out.println("\nPrinting with FOR LOOP");
-	// for loop is the best structure for iterating through an array ??
-	for (int x = 0; x < 5; x++){
-		System.out.println(states[x]);
+		// this has an error - what is it!?!
+		System.out.println("\nPrinting with FOR LOOP");
+		// for loop is the best structure for iterating through an array ??
+		for (int x = 0; x < 5; x++){
+			System.out.println(states[x]);
+		}
 	}
 		
 }
